@@ -1,0 +1,116 @@
+/* SHOWCASE */
+
+#showcase {
+    height: 100vh;
+    background: #333 url('./resources/images/pexels-ingrid-dietrich-1364562.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+#showcase #showcase-content {
+    background-color: rgba(0,0,0,0.1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#showcase .container h1 {
+    position: relative;
+    top: 85vh;
+    color: #fff;
+    font-size: 40px;
+}
+
+#showcase .level {
+    position: relative;
+    z-index: 1;
+}
+
+#showcase .level .level-item {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#showcase .level .level-item a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+#showcase .level .level-item a:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+
+/* NEW PRODUCT GALLERY */
+
+#new-product-gallery {
+    background-color: #27A3A2;
+    margin-bottom: 3rem;
+}
+
+#new-product-gallery .container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FB7423;
+    padding: 1.5rem;
+}
+
+#new-product-gallery .columns .column {
+    margin-top: 1rem;
+}
+
+#new-product-gallery .card {
+    margin-bottom: 1rem;
+    height: 500px;
+}
+
+#new-product-gallery .card .image img {
+    height: 300px;
+}
+
+/* ABOUT */
+
+#about {
+    margin-bottom: 2.5rem;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #27A3A2;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+footer .columns .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer #copyright {
+    text-align: center;
+}
+
+footer #copyright p {
+    padding-bottom: 2rem;
+}
